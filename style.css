@@ -43,3 +43,9 @@ section{
     width: 200px;
     padding-left: 10px;
 }
+
+@media screen and (max-width: 600px) {
+     .form{
+        width: 90%;
+    }
+}
