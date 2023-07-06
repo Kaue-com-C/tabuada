@@ -1,0 +1,45 @@
+:root{
+    --preto-DNC: rgb(48,48,48);
+    --branco-DNC: rgb(239, 235, 228);
+    --azul-DNC: rgb(12, 112, 242);
+}
+
+body{
+    background-color: var(--preto-DNC);
+    text-align: center;
+    font-family: 'Verdana';
+}
+
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    color: var(--branco-DNC);
+}
+
+section{
+    background-color: var(--branco-DNC);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+#button{
+    background-color: var(--azul-DNC);
+    color: var(--branco-DNC);
+    border: 0px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.form{
+    margin: 8px;
+    border-radius: 10px;
+    height: 25px;
+    border-style: none;
+    width: 200px;
+    padding-left: 10px;
+}
